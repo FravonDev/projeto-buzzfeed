@@ -1,4 +1,8 @@
 #Projeto-buzzfeed
+
+![image](https://user-images.githubusercontent.com/62142146/205469503-99f5e6b2-6ba5-4ba3-a70a-b7c94dc17be9.png)
+
+
 ## 🚨 Sobre
 
 Descubra se você é um heroi ou um vilão!!!
