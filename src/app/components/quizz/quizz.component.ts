@@ -40,19 +40,30 @@ export class QuizzComponent {
      console.log(this.answers);
   }
 
-  nextStep(){
+  async nextStep(){
     this.questionIndex++
     if (this.questionMaxIndex > this.questionIndex) {
         this.questionsSelected = this.questions[this.questionIndex]
     } else {
+      const finalAnswers: string = await this.checkResult(this.answers)
       this.finished = true
-      //Verificar opção vencedora
+      this.answerSelected = quizz_questions.results[finalAnswers as keyof typeof quizz_questions.results]
 
 
     }
   }
 
   async checkResult(answers:string[]){
-    const result = answers.reduce(())
+    const result = answers.reduce((previous, current, i, arr)=>{
+      if(
+        arr.filter(item => item === previous).length >
+        arr.filter(item => item === current).length
+      ){
+        return previous
+      }else{
+        return current
+      }
+    })
+    return result
   }
 }
