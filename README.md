@@ -5,7 +5,7 @@
 
 Descubra se você é um heroi ou um vilão!!!
 
-[Clique aqui para testar!](https://fravondevapi.herokuapp.com)
+[Clique aqui para testar!](https://projeto-buzzfeed-jfpc4l6p3-flavinpv.vercel.app)
 
 
 # 💻 tecnologias e ferramentas utilizadas
