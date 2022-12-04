@@ -5,7 +5,7 @@
 
 Descubra se você é um heroi ou um vilão!!!
 
-[Clique aqui para testar!](https://projeto-buzzfeed-jfpc4l6p3-flavinpv.vercel.app)
+<a href="https://projeto-buzzfeed-jfpc4l6p3-flavinpv.vercel.app" target="_blank">Clique aqui para testar!</a>
 
 
 # 💻 tecnologias e ferramentas utilizadas
