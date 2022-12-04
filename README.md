@@ -1,5 +1,3 @@
-#Projeto-buzzfeed
-
 ![image](https://user-images.githubusercontent.com/62142146/205469608-64955f09-45c7-4bdb-9758-4a876b0c6b14.png)
 
 
